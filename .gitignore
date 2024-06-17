@@ -1,0 +1,25 @@
+secrets.yaml
+
+# file.c에 해당하는 모든 파일  
+file.c
+
+# 최상위 폴더의 해당파일 
+/file.c
+
+# 모든 jsx 확장자 
+*.jsx
+
+# not_ignore_this.jsx는 올라감 
+!not_ignore_this.jsx
+
+# logs와 폴더 내에 있는 모든 것을 올리지 않음 
+logs 
+
+# logs 폴더 내 
+logs/
+
+# logs안에  degub.log
+logs/degub.log
+
+# logs 폴더 하위에 있는 모든 c확장자 파일 
+logs/**/*.c
